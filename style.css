@@ -1,9 +1,26 @@
-/* Example CSS */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+h2 {
+    color: red;
+    font-style: italic;
+    font-size: 20;
+    background-color: goldenrod;
+}
+.classseletor{
+    color: rgb(149, 255, 0);
+}
+#id{
+    color: rgb(0, 140, 255);
+}
+*{
+    background-color: rgb(204, 0, 255);
+}
+div p{
+    background-color: rgb(32, 16, 255);
+}
+div>p{
+    height: 60;
+}
+h1,h2{
+    color: rgb(255, 0, 149);
 }
 
-h1 {
-    color: #333;
-}
+
